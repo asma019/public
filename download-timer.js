@@ -17,5 +17,6 @@ jQuery(document).ready(function($) {
         }
     }
 
+    updateTimer(); // Call the function once immediately to start the timer
     var timerInterval = setInterval(updateTimer, 1000);
 });
